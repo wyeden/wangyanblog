@@ -12,5 +12,5 @@
 
 module.exports = {
     secret:'zpfx',
-    url:"mongodb://localhost:27017/wangyanblog"
+    url:"mongodb://heroku-postgres-ccfc11f8:27017/wangyanblog"
 };
