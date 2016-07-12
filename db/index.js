@@ -1,7 +1,8 @@
 /**
  * Created by 58 on 2016/7/10.
  */
-var mongoose = require('mongoose');
+var mongoose = require('pg');
+mongoose.defaults.ssl = true;
 var Schema = mongoose.Schema;
 //引入数据库设置
 var settings = require('../settings');
