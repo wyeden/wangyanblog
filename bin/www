@@ -4,19 +4,22 @@
  * Module dependencies.
  */
 
-var app = require('../app');
-var debug = require('debug')('wangyanblog:server');
+var app = require('../app'); //引入主配置文件
+var debug = require('debug')('wangyanblog:server'); //创建一个日志记录器
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
+ * 从环境变量中获取端口号并保存在express中
  */
 
 var port = normalizePort(process.env.PORT || '3000');
+//保存到app中
 app.set('port', port);
 
 /**
  * Create HTTP server.
+ * 创建一个app服务器
  */
 
 var server = http.createServer(app);
