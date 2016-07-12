@@ -12,5 +12,6 @@
 
 module.exports = {
     secret:'zpfx',
-    url:"mongodb://ec2-50-19-219-148.compute-1.amazonaws.com:5432/d7b5avc8ld48qt"
+    url:"postgres://skpgdakdvrfvst:X7rIbC2htv--Qa3TLm8unceTuL@ec2-50-19-219-148.compute-1.amazonaws.com:5432/d7b5avc8ld48qt
+"
 };
